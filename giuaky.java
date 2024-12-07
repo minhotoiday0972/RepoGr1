@@ -59,10 +59,6 @@ abstract class SanPham {
     		return false;
     	}
 	}
-	/*final public boolean kTHetHan() {
-        Date n = new Date();
-        return n.compareTo(this.hanSuDung) > 0;
-    }*/
 }
 class Sua extends SanPham{
 	public Sua(String maSanPham, String tenSanPham, double gia, int soLuong, Date hanSuDung){
